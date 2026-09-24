@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-arcgis-indianriver",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Indian River County GIS — Indian River County, Florida open geospatial data (ArcGIS).",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-arcgis-indianriver": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "arcgis-indianriver"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-arcgis-indianriver"
+    "url": "git+https://github.com/pipeworx-io/mcp-arcgis-indianriver.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-7d5d79c8d2fd0d4e8897755e416da6bd531f9563e6ad69be45ac0c46621198e4",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
