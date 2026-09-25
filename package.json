@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-arcgis-indianriver",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Indian River County GIS — Indian River County, Florida open geospatial data (ArcGIS).",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-7d5d79c8d2fd0d4e8897755e416da6bd531f9563e6ad69be45ac0c46621198e4",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-af0ffd0e41876e645c278411658eef2636d3ea79bc4aaa41571f00fe5b26c2aa",
+    "sourceCommit": "dca20ba6e13a9aa1c9f2918fc2ddaffe4cc30e5c"
   }
 }
